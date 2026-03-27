@@ -12,7 +12,7 @@ class Settings:
     llm_model: str = "qwen-flash"
     ffmpeg_exe: str = r"D:\办公软件\ffmpeg-8.1-essentials_build\bin\ffmpeg.exe"
     max_upload_size_mb: int = 5
-    request_timeout_seconds: int = 3000
+    request_timeout_seconds: int = 30
     persist_normalized_audio: bool = False
     normalized_audio_dir: str = "tmp/normalized"
 
