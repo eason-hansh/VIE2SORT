@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+
+# Virtual env / local
+.venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# Local data (do not commit)
+raw_data/
+data/samples/
+tmp/
